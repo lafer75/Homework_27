@@ -10,7 +10,7 @@ public class ArrayAfterLastFour {
         }
 
         if (index == -1) {
-            throw new RuntimeException("Массив не содержит четверки");
+            throw new RuntimeException("В масиві не має 4");
         }
 
         int[] resultArray = new int[inputArray.length - index - 1];
